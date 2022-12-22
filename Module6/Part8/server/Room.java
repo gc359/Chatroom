@@ -261,7 +261,7 @@ public class Room implements AutoCloseable {
 		if(converter == null){
 			converter = new HashMap<String, String>();
 			// user symbol => output text separated by |
-			converter.put("\\*{2}", "<b>|</b>");
+			converter.put("!!", "<b>|</b>");
 			converter.put("--", "<i>|</i>");
 			converter.put("__", "<u>|</u>");
 			converter.put("#r#", "<font color=\"red\">|</font>");
